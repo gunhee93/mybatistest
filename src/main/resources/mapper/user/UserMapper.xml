@@ -11,4 +11,6 @@
         ORDER by
         id asc
     </select>
+
+    <insert id="signup" parameterType=""
 </mapper>

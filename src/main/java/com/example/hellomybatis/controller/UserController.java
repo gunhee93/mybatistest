@@ -23,5 +23,6 @@ public class UserController {
         List<User> userList = userService.getUserList();
 
         return new ResponseEntity<>(userList, HttpStatus.OK);
+
     }
 }
